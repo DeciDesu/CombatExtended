@@ -1,81 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Patch>
 
-	<!-- === Artic Coyote === -->
-	<Operation Class="PatchOperationAdd">
-		<xpath>Defs/ThingDef[defName="AEXP_ArcticCoyote"]/statBases</xpath>
+	<!-- === Panda === -->
+	<Operation Class="PatchOperationAddModExtension">
+		<xpath>
+			Defs/ThingDef[defName="AEXP_Panda"]
+		</xpath>
 		<value>
-			<MeleeDodgeChance>0.26</MeleeDodgeChance>
-			<MeleeCritChance>0.08</MeleeCritChance>
-			<MeleeParryChance>0.04</MeleeParryChance>
+			<li Class="CombatExtended.RacePropertiesExtensionCE">
+				<bodyShape>Quadruped</bodyShape>
+			</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="AEXP_Panda"]/statBases</xpath>
+		<value>
+			<MeleeDodgeChance>0.15</MeleeDodgeChance>
+			<MeleeCritChance>0.19</MeleeCritChance>
+			<MeleeParryChance>0.11</MeleeParryChance>
 		</value>
 	</Operation>
 
 	<Operation Class="PatchOperationReplace">
-		<xpath>Defs/ThingDef[defName="AEXP_ArcticCoyote"]/tools</xpath>
-		<value>
-			<tools>
-				<li Class="CombatExtended.ToolCE">
-					<label>left claw</label>
-					<capacities>
-						<li>Scratch</li>
-					</capacities>
-					<power>4</power>
-					<cooldownTime>1</cooldownTime>
-					<linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
-					<armorPenetrationSharp>0.056</armorPenetrationSharp>
-					<armorPenetrationBlunt>0.216</armorPenetrationBlunt>
-				</li>
-				<li Class="CombatExtended.ToolCE">
-					<label>right claw</label>
-					<capacities>
-						<li>Scratch</li>
-					</capacities>
-					<power>4</power>
-					<cooldownTime>1</cooldownTime>
-					<linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
-					<armorPenetrationSharp>0.056</armorPenetrationSharp>
-					<armorPenetrationBlunt>0.216</armorPenetrationBlunt>
-				</li>
-				<li Class="CombatExtended.ToolCE">
-					<capacities>
-						<li>Bite</li>
-					</capacities>
-					<power>13</power>
-					<cooldownTime>2</cooldownTime>
-					<chanceFactor>0.7</chanceFactor>
-					<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
-					<armorPenetrationSharp>0.10</armorPenetrationSharp>
-					<armorPenetrationBlunt>1.5</armorPenetrationBlunt>
-				</li>
-				<li Class="CombatExtended.ToolCE">
-					<label>head</label>
-					<capacities>
-						<li>Blunt</li>
-					</capacities>
-					<power>3</power>
-					<cooldownTime>1.5</cooldownTime>
-					<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
-					<armorPenetrationBlunt>0.13</armorPenetrationBlunt>
-				</li>
-			</tools>
-		</value>
-	</Operation>
-
-	<!-- === Black Bear === -->
-	<Operation Class="PatchOperationAdd">
-		<xpath>Defs/ThingDef[defName="AEXP_BlackBear"]/statBases</xpath>
-		<value>
-			<MeleeDodgeChance>0.15</MeleeDodgeChance>
-			<MeleeCritChance>0.15</MeleeCritChance>
-			<MeleeParryChance>0.15</MeleeParryChance>
-			<ArmorRating_Blunt>0.05</ArmorRating_Blunt>
-			<ArmorRating_Sharp>0.025</ArmorRating_Sharp>
-		</value>
-	</Operation>
-
-	<Operation Class="PatchOperationAdd">
-		<xpath>Defs/ThingDef[defName="AEXP_BlackBear"]</xpath>
+		<xpath>Defs/ThingDef[defName="AEXP_Panda"]/tools</xpath>
 		<value>
 			<tools>
 				<li Class="CombatExtended.ToolCE">
