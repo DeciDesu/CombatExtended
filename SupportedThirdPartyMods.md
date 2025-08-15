@@ -183,6 +183,7 @@ Darkest Rim: Apparel	|
 Deployable Turret   |
 Det's Energy Weapons    |
 Det's Xenotypes - Boglegs   |
+Det's Xenotypes - Half-foot   |
 Det's Xenotypes - Keshig   |
 Det's Xenotypes - Venators   |
 Devilstrand Animals |
@@ -215,6 +216,7 @@ Erin's Auronya - HAR Edition   |
 Erin's Azaphrae |
 Erin's Chocobos |
 Erin's Final Fantasy Races |
+Erin's Fluffy Fauna |
 Erin's Friendly Ferrets |
 Erin's Fox Squirrel |
 Erin's Lizard Doggo |
@@ -341,6 +343,7 @@ Mechanoid Master Blaser |
 Medical Supplements |
 Medical System Expansion	|
 Medieval Bowyer   |
+Medieval Coastal Outfits  |
 Medieval Medicines 1.4 Medieval Overhaul Edition |
 Medieval Overhaul   |
 Medieval Overhaul: Arcane Archeologists   |
@@ -364,6 +367,7 @@ Misc. Core	|
 Misc. MAI |
 Misc. Robots	|
 Misc. Turrets   |
+Misstall's Armor and Uniforms   |
 Moa |
 Moonjelly Race  |
 More Archotech Garbage Continued  |
@@ -391,6 +395,7 @@ Nakin Race  |
 Nanosuit    |
 Nearmare Race	|
 Neclose Race	|
+Nephilim Xenotype Reborn    |
 New Mech: Mini-Miner    |
 Ni'Hal	|
 Nukes   |
